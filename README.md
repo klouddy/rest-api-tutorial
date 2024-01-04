@@ -140,3 +140,19 @@ For every request you make to a REST API you will get a response code. Each code
 In the main section you will see a JSON payload as the body of your response. This is the representation of the current status of the API.
 
 If you got a 200 response, you are all set.
+
+## Using a Programing Language
+
+So now you can fetch the data. However to really get that competitive edge you want to use this data in a very specific way. For instance maybe you only care about the 2 best teams in your district and what they are scoring each match.
+
+To do this you would want to be abel to pull down the data into a program so you can work on it.
+
+## Writing a program.
+
+We are going to use NodeJs as an example.
+
+First intall NodeJS [here](https://nodejs.org/en/download)
+
+To verify it worked open a terminal and enter the command `node --version`
+
+You should see something like this: `v20.9.0`
